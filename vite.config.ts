@@ -7,5 +7,5 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   // support build for github pages
-  base: '/site/'
+  base: '/'
 })
